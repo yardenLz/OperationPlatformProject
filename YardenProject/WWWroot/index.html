@@ -1,0 +1,213 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Operation Platform</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            height: 100vh;
+            margin: 0;
+            padding-top: 50px;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 400px;
+        }
+
+        input, select, button {
+            padding: 12px;
+            margin: 10px 5px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+            width: 90%;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            width: 95%;
+            margin-top: 10px;
+        }
+
+            button:hover {
+                background-color: #45a049;
+            }
+
+        pre {
+            background: #eef;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+            text-align: left;
+            font-size: 14px;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+
+        .error {
+            color: #ff4d4f;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        .loader {
+            border: 5px solid #f3f3f3;
+            border-top: 5px solid #4CAF50;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 0.8s linear infinite;
+            margin: 20px auto;
+            display: none;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .history {
+            background: #fff4e6;
+            padding: 15px;
+            margin-top: 20px;
+            border-radius: 8px;
+            text-align: left;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Operation Platform</h1>
+    <div class="container">
+        <input type="text" id="fieldA" placeholder="Enter Field A">
+        <input type="text" id="fieldB" placeholder="Enter Field B">
+
+        <select id="operation">
+            <option value="">Select Operation</option>
+            <option value="ADD">Add</option>
+            <option value="SUBTRACT">Subtract</option>
+            <option value="MULTIPLY">Multiply</option>
+            <option value="DIVIDE">Divide</option>
+            <option value="CONCATENATE">Concatenate</option>
+            <option value="CONTAINS">Contains</option>
+        </select>
+
+        <button onclick="calculate()">Calculate</button>
+
+        <div class="loader" id="loader"></div>
+
+        <pre id="result"></pre>
+        <div class="error" id="error"></div>
+        <div class="history" id="history"></div>
+        <div class="history" id="monthlyCount"></div>
+    </div>
+
+    <script>
+        async function calculate() {
+            // נקה את התוכן הקודם
+            document.getElementById('result').innerText = "";
+            document.getElementById('error').innerText = "";
+            document.getElementById('history').innerText = "";
+            document.getElementById('monthlyCount').innerText = "";
+            document.getElementById('loader').style.display = 'block';
+
+            const fieldA = document.getElementById('fieldA').value;
+            const fieldB = document.getElementById('fieldB').value;
+            const operation = document.getElementById('operation').value;
+
+            if (!fieldA || !fieldB || !operation) {
+                document.getElementById('loader').style.display = 'none';
+                document.getElementById('error').innerText = "All fields are required.";
+                return;
+            }
+
+            try {
+                const response = await fetch('/operations/calculate', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ fieldA, fieldB, operation })
+                });
+
+                const data = await response.json();
+
+                if (response.ok) {
+                    document.getElementById('result').innerText = JSON.stringify(data, null, 2);
+                    await loadHistory(operation);
+                    await loadMonthlyCount(operation);
+                } else {
+                    document.getElementById('error').innerText = data.message || "An error occurred.";
+                }
+
+            } catch (error) {
+                document.getElementById('error').innerText = "Failed to connect to server.";
+            } finally {
+                document.getElementById('loader').style.display = 'none';
+            }
+        }
+
+        async function loadHistory(operation) {
+            try {
+                const response = await fetch(`/operations/last-operations/${operation}`);
+                const history = await response.json();
+
+                if (response.ok && history.length > 0) {
+                    let historyHtml = "<b>Last operations:</b><ul>";
+                    history.forEach(item => {
+                        historyHtml += `<li>${item.fieldA} ${item.operation} ${item.fieldB} = ${item.result} (${new Date(item.operationDate).toLocaleString()})</li>`;
+                    });
+                    historyHtml += "</ul>";
+                    document.getElementById('history').innerHTML = historyHtml;
+                } else {
+                    document.getElementById('history').innerText = "No operation history available.";
+                }
+            } catch (error) {
+                document.getElementById('history').innerText = "Failed to load history.";
+            }
+        }
+
+        async function loadMonthlyCount(operation) {
+            try {
+                const response = await fetch(`/operations/monthly-count/${operation}`);
+                const count = await response.json();
+
+                if (response.ok) {
+                    document.getElementById('monthlyCount').innerHTML = `<b>Monthly Count:</b> ${count}`;
+                } else {
+                    document.getElementById('monthlyCount').innerText = "Failed to load monthly count.";
+                }
+            } catch (error) {
+                document.getElementById('monthlyCount').innerText = "Failed to load monthly count.";
+            }
+        }
+    </script>
+
+</body>
+</html>

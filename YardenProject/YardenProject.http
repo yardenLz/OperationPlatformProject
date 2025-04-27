@@ -1,0 +1,6 @@
+@YardenProject_HostAddress = http://localhost:5014
+
+GET {{YardenProject_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

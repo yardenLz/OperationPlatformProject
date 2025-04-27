@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "Hash": "eJVmD8HOj9L6rVuKjnR199awEDfyKCwYla/T+G8hFZg=",
+  "Source": "YardenProject",
+  "BasePath": "_content/YardenProject",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "YardenProject\\wwwroot",
+      "Source": "YardenProject",
+      "ContentRoot": "C:\\Users\\Yarden\\source\\repos\\YardenProject\\YardenProject\\wwwroot\\",
+      "BasePath": "_content/YardenProject",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Yarden\\source\\repos\\YardenProject\\YardenProject\\wwwroot\\index.html",
+      "SourceId": "YardenProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Yarden\\source\\repos\\YardenProject\\YardenProject\\wwwroot\\",
+      "BasePath": "_content/YardenProject",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gnbx0i61ss",
+      "Integrity": "POGbf1SXVI082lkCVScbB2ctop48LBC6LNxg4M7nWDY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "index.gnbx0i61ss.html",
+      "AssetFile": "C:\\Users\\Yarden\\source\\repos\\YardenProject\\YardenProject\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7138"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"POGbf1SXVI082lkCVScbB2ctop48LBC6LNxg4M7nWDY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 14:12:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gnbx0i61ss"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-POGbf1SXVI082lkCVScbB2ctop48LBC6LNxg4M7nWDY="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\Yarden\\source\\repos\\YardenProject\\YardenProject\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7138"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"POGbf1SXVI082lkCVScbB2ctop48LBC6LNxg4M7nWDY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 14:12:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-POGbf1SXVI082lkCVScbB2ctop48LBC6LNxg4M7nWDY="
+        }
+      ]
+    }
+  ]
+}

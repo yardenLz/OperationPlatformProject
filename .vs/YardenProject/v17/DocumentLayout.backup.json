@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Yarden\\source\\repos\\YardenProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7FA54A0B-0D90-4CE0-9DB1-6C93494256F0}|YardenProject\\YardenProject.csproj|c:\\users\\yarden\\source\\repos\\yardenproject\\yardenproject\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7FA54A0B-0D90-4CE0-9DB1-6C93494256F0}|YardenProject\\YardenProject.csproj|solutionrelative:yardenproject\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FA54A0B-0D90-4CE0-9DB1-6C93494256F0}|YardenProject\\YardenProject.csproj|c:\\users\\yarden\\source\\repos\\yardenproject\\yardenproject\\services\\operationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FA54A0B-0D90-4CE0-9DB1-6C93494256F0}|YardenProject\\YardenProject.csproj|solutionrelative:yardenproject\\services\\operationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FA54A0B-0D90-4CE0-9DB1-6C93494256F0}|YardenProject\\YardenProject.csproj|c:\\users\\yarden\\source\\repos\\yardenproject\\yardenproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FA54A0B-0D90-4CE0-9DB1-6C93494256F0}|YardenProject\\YardenProject.csproj|solutionrelative:yardenproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FA54A0B-0D90-4CE0-9DB1-6C93494256F0}|YardenProject\\YardenProject.csproj|c:\\users\\yarden\\source\\repos\\yardenproject\\yardenproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7FA54A0B-0D90-4CE0-9DB1-6C93494256F0}|YardenProject\\YardenProject.csproj|solutionrelative:yardenproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FA54A0B-0D90-4CE0-9DB1-6C93494256F0}|YardenProject\\YardenProject.csproj|c:\\users\\yarden\\source\\repos\\yardenproject\\yardenproject\\controllers\\operationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FA54A0B-0D90-4CE0-9DB1-6C93494256F0}|YardenProject\\YardenProject.csproj|solutionrelative:yardenproject\\controllers\\operationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FA54A0B-0D90-4CE0-9DB1-6C93494256F0}|YardenProject\\YardenProject.csproj|c:\\users\\yarden\\source\\repos\\yardenproject\\yardenproject\\services\\ioperationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FA54A0B-0D90-4CE0-9DB1-6C93494256F0}|YardenProject\\YardenProject.csproj|solutionrelative:yardenproject\\services\\ioperationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FA54A0B-0D90-4CE0-9DB1-6C93494256F0}|YardenProject\\YardenProject.csproj|c:\\users\\yarden\\source\\repos\\yardenproject\\yardenproject\\models\\operationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FA54A0B-0D90-4CE0-9DB1-6C93494256F0}|YardenProject\\YardenProject.csproj|solutionrelative:yardenproject\\models\\operationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FA54A0B-0D90-4CE0-9DB1-6C93494256F0}|YardenProject\\YardenProject.csproj|c:\\users\\yarden\\source\\repos\\yardenproject\\yardenproject\\models\\operationhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FA54A0B-0D90-4CE0-9DB1-6C93494256F0}|YardenProject\\YardenProject.csproj|solutionrelative:yardenproject\\models\\operationhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FA54A0B-0D90-4CE0-9DB1-6C93494256F0}|YardenProject\\YardenProject.csproj|c:\\users\\yarden\\source\\repos\\yardenproject\\yardenproject\\data\\gaiadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FA54A0B-0D90-4CE0-9DB1-6C93494256F0}|YardenProject\\YardenProject.csproj|solutionrelative:yardenproject\\data\\gaiadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FA54A0B-0D90-4CE0-9DB1-6C93494256F0}|YardenProject\\YardenProject.csproj|c:\\users\\yarden\\source\\repos\\yardenproject\\yardenproject\\models\\operationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FA54A0B-0D90-4CE0-9DB1-6C93494256F0}|YardenProject\\YardenProject.csproj|solutionrelative:yardenproject\\models\\operationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\Yarden\\source\\repos\\YardenProject\\YardenProject\\WWWroot\\index.html",
+              "RelativeDocumentMoniker": "YardenProject\\WWWroot\\index.html",
+              "ToolTip": "C:\\Users\\Yarden\\source\\repos\\YardenProject\\YardenProject\\WWWroot\\index.html",
+              "RelativeToolTip": "YardenProject\\WWWroot\\index.html",
+              "ViewState": "AgIAAKIAAAAAAAAAAAAAANUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-04-27T13:19:26.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Yarden\\source\\repos\\YardenProject\\YardenProject\\appsettings.json",
+              "RelativeDocumentMoniker": "YardenProject\\appsettings.json",
+              "ToolTip": "C:\\Users\\Yarden\\source\\repos\\YardenProject\\YardenProject\\appsettings.json",
+              "RelativeToolTip": "YardenProject\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-27T12:45:22.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Yarden\\source\\repos\\YardenProject\\YardenProject\\Program.cs",
+              "RelativeDocumentMoniker": "YardenProject\\Program.cs",
+              "ToolTip": "C:\\Users\\Yarden\\source\\repos\\YardenProject\\YardenProject\\Program.cs",
+              "RelativeToolTip": "YardenProject\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T12:58:27.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OperationsController.cs",
+              "DocumentMoniker": "C:\\Users\\Yarden\\source\\repos\\YardenProject\\YardenProject\\Controllers\\OperationsController.cs",
+              "RelativeDocumentMoniker": "YardenProject\\Controllers\\OperationsController.cs",
+              "ToolTip": "C:\\Users\\Yarden\\source\\repos\\YardenProject\\YardenProject\\Controllers\\OperationsController.cs",
+              "RelativeToolTip": "YardenProject\\Controllers\\OperationsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T12:56:49.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OperationService.cs",
+              "DocumentMoniker": "C:\\Users\\Yarden\\source\\repos\\YardenProject\\YardenProject\\Services\\OperationService.cs",
+              "RelativeDocumentMoniker": "YardenProject\\Services\\OperationService.cs",
+              "ToolTip": "C:\\Users\\Yarden\\source\\repos\\YardenProject\\YardenProject\\Services\\OperationService.cs",
+              "RelativeToolTip": "YardenProject\\Services\\OperationService.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAADwvzwAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T12:55:28.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IOperationService.cs",
+              "DocumentMoniker": "C:\\Users\\Yarden\\source\\repos\\YardenProject\\YardenProject\\Services\\IOperationService.cs",
+              "RelativeDocumentMoniker": "YardenProject\\Services\\IOperationService.cs",
+              "ToolTip": "C:\\Users\\Yarden\\source\\repos\\YardenProject\\YardenProject\\Services\\IOperationService.cs",
+              "RelativeToolTip": "YardenProject\\Services\\IOperationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T12:51:54.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GaiaDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Yarden\\source\\repos\\YardenProject\\YardenProject\\Data\\GaiaDbContext.cs",
+              "RelativeDocumentMoniker": "YardenProject\\Data\\GaiaDbContext.cs",
+              "ToolTip": "C:\\Users\\Yarden\\source\\repos\\YardenProject\\YardenProject\\Data\\GaiaDbContext.cs",
+              "RelativeToolTip": "YardenProject\\Data\\GaiaDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T12:47:50.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OperationHistory.cs",
+              "DocumentMoniker": "C:\\Users\\Yarden\\source\\repos\\YardenProject\\YardenProject\\Models\\OperationHistory.cs",
+              "RelativeDocumentMoniker": "YardenProject\\Models\\OperationHistory.cs",
+              "ToolTip": "C:\\Users\\Yarden\\source\\repos\\YardenProject\\YardenProject\\Models\\OperationHistory.cs",
+              "RelativeToolTip": "YardenProject\\Models\\OperationHistory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T12:47:12.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OperationResult.cs",
+              "DocumentMoniker": "C:\\Users\\Yarden\\source\\repos\\YardenProject\\YardenProject\\Models\\OperationResult.cs",
+              "RelativeDocumentMoniker": "YardenProject\\Models\\OperationResult.cs",
+              "ToolTip": "C:\\Users\\Yarden\\source\\repos\\YardenProject\\YardenProject\\Models\\OperationResult.cs",
+              "RelativeToolTip": "YardenProject\\Models\\OperationResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T12:46:44.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OperationRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Yarden\\source\\repos\\YardenProject\\YardenProject\\Models\\OperationRequest.cs",
+              "RelativeDocumentMoniker": "YardenProject\\Models\\OperationRequest.cs",
+              "ToolTip": "C:\\Users\\Yarden\\source\\repos\\YardenProject\\YardenProject\\Models\\OperationRequest.cs",
+              "RelativeToolTip": "YardenProject\\Models\\OperationRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T12:45:59.754Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
