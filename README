@@ -1,0 +1,54 @@
+Operation Platform Project
+
+Project Overview
+
+The system allows users to:
+
+- Perform basic mathematical operations (Add, Subtract, Multiply, Divide).
+- Perform string operations (Concatenate, Contains).
+- Automatically save each operation to a SQL Server database.
+- Display the last three historical operations of the same type (excluding the current operation).
+- Show the total number of operations of the same type performed since the beginning of the current month.
+
+The web client (`index.html`) provides a clean and user-friendly interface.
+
+Project Structure
+
+- /Controllers – API controllers (`OperationsController.cs`).
+- /Data – Entity Framework database context (`GaiaDbContext.cs`).
+- /Models – Entity models (`OperationHistory.cs`, `OperationResult.cs`, `OperationRequest.cs`).
+- /Services – Business logic layer (`OperationService.cs`).
+- /wwwroot – Frontend files (`index.html`).
+
+Database Setup (SQL Server)
+
+Before running the project, you must create a database named "GaiaDB" on your local SQL Server instance.
+
+Step 1: Create the database
+
+CREATE DATABASE GaiaDB;
+
+Step 2: Create the required table
+
+CREATE TABLE OperationHistories (
+    Id INT IDENTITY(1,1) PRIMARY KEY,
+    FieldA NVARCHAR(255) NOT NULL,
+    FieldB NVARCHAR(255) NOT NULL,
+    Operation NVARCHAR(50) NOT NULL,
+    Result NVARCHAR(255),
+    OperationDate DATETIME NOT NULL
+);
+
+Configuration:
+You must configure the connection string in the appsettings.json file to match your local SQL Server 
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=localhost\\SQLEXPRESS;Database=GaiaDB;Trusted_Connection=True;"
+  }
+}
+
+Please make sure your SQL Server is running locally (localhost\SQLEXPRESS).
+
+Please make sure the database name is exactly GaiaDB.
+
+
